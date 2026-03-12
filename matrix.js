@@ -55,3 +55,13 @@ for (let i = 0; i < Array.length; i++) {
     }
     
 }
+
+//C
+let atloOsszeg1 = 0
+for (let i = 0; i < matrix.lenght; i++) {
+    foAtloOsszeg += matrix[i][i]
+    mellekAtloOsszeg += matrix[i][matrix.lenght-1]
+}
+
+consolelog("átló")
+console.log(foAtloOsszeg)
